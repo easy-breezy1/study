@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник для тебя и твоего котика</title>
+</head>
+<body>
+    <form>
+    <h1>Опросник для тебя и твоего котика</h1>
+    <fieldset>
+        <legend>Данные владельца</legend>
+        <label for="yourName">Ваше Имя</label>
+        <input type="text" id="yourName"/> <br />
+        <label for="phone">Контактные данные</label>
+        <input type="text" id="phone" placeholder="Введите номер телефона"/> 
+    </fieldset>
+    <fieldset>
+        <legend>Данные питомца</legend>
+        <div>
+            <label for="catsName">Кличка питомца</label>
+            <input type="text" id="catsName"> 
+        </div>
+        <div>
+            <label for="catbreed">Порода питомца</label>
+            <select id="catbreed">
+                <option value="mainecoon">Мейн-кун</option>
+                <option value="bengal">Бенгальская кошка</option>
+                <option value="abyssinian">Абиссинская кошка</option>
+                <option value="british">Британская кошка</option>
+                <option value="siamese">Сиамская кошка</option>
+                <option value="scottishfold">Шотландская вислоухая</option>
+                <option value="sphynx">Сфинкс</option>
+                <option value="cat" selected="selected">Кот дворовый обыкновенный</option>
+            </select> 
+        </div>
+        <div>
+            <p>Пол питомца<br />
+            <input type="radio" name="sex" value="m"/> <span>Самец</span> <br />
+            <input type="radio" name="sex" value="f"/>
+            <span>Самка</span> </p> 
+        </div>
+        <div>
+            <p>Укажите тип питания питомца <br />
+            <input type="checkbox" name="food" value="1" /> <span>Сухой корм</span>
+            <input type="checkbox" name="food" value="2" /> <span>Влажный корм</span>
+            <input type="checkbox" name="food" value="3"><span>Натуральный корм</span> </p> 
+        </div>
+        <div> 
+            <label for="file">Добавьте фото Вашего питомца</label>
+            <input type="file" id="file"/> 
+        </div>
+    </fieldset>
+    <div>
+        <p>Комментарии</p> 
+        <textarea rows="10" cols="50">Введите Ваш комментарий</textarea>
+    </div>
+    <input type="submit" value="Сохранить"/>
+    </form>
+</body>
+</html>
