@@ -1,0 +1,18 @@
+img {
+    background-color: rgb(177, 177, 177);
+    height: 200px;
+}
+
+
+.heading {
+    background-color: rgb(206, 213, 203);
+    height: 250px;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer {
+    margin-top: 2%;
+}
