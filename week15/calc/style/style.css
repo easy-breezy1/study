@@ -1,0 +1,34 @@
+.main {
+    padding-left: 7%;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+#num1,
+#num2 {
+    height: 40px;
+    margin: 10px 0px;
+    background-color: rgb(219, 200, 237);
+    font-size: large;
+}
+
+#plus,
+#minus,
+#times,
+#divide {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(165, 165, 225, 0.536);
+}
+
+.calculate {
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(188, 173, 201, 0.132);
+}
+
+#result {
+    padding-top: 15px;
+}

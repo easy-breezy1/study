@@ -1,0 +1,12 @@
+.main {
+    padding: 3% 10%;
+    background-color: antiquewhite;
+}
+
+#background-clr {
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    background-color: rgba(216, 218, 225, 0.43);
+    border-color: rgba(143, 169, 242, 0.02);
+}
